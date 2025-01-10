@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidde;
+}
+body{
+    /* background-color: #eeeeea; */
+    background-color: #dadad1;
+}
+.navbar{
+    height: 80px;
+    background-color: black;
+}
+.navbar h2{
+    color: red;
+    font-size: 45px;
+    letter-spacing: 5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 100px;
+    padding-top: 10px;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    margin-right: 100px;
+    gap: 30px;
+    margin-top: -40px;
+}
+.nav-links button{
+    width: 100px;
+    padding: 8px 0px;
+    border-radius: 8px;
+    background-color: red;
+    border: none;
+    box-shadow: 0 0 5px red,
+    0 0 25px red;
+}
+.nav-links li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    font-weight: 600;
+}
+button:hover {
+    box-shadow: 0 0 5px red,
+    0 0 25px red,0 0 50px red,
+    0 0 100px red,0 0 200px red
+}
+/* navbar ends */
+
+/* wrapper section */
+
+.wrapper{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    height: 400px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+}
+.card{
+    width: 80px;
+    border-radius: .75rem;
+    background-size: cover;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 2rem;
+    margin: 0 10px;
+    display: flex;
+    align-items: flex-end;
+    transition: .6s cubic-bezier(.28,-0.03,0,.99);
+    box-shadow: 0px 10px 30px -5px rgba(0,0, 0,0.8);
+}
+input{
+    display: none;
+}
+input:checked + label {
+    width: 600px;
+}
+
+.card[for='c1']{
+    background-image: url(./assets/img11.jpg);
+}
+.card[for='c2']{
+    background-image: url(./assets/img1.2.jpg);
+}
+.card[for='c3']{
+    background-image: url(./assets/img7.jpg);
+}
+.card[for='c4']{
+    background-image: url(./assets/img5.jpg);
+}
+.card[for='c5']{
+    background-image: url(./assets/img13.jpg);
+}
+.card[for='c6']{
+    background-image: url(./assets/img1.jpg);
+}
+.card[for='c7']{
+    background-image: url(./assets/img18.jpg);
+}
+
+/* this section ends here */
+.marvel img{
+    height: 200px;
+    width: 400px;
+    margin-left: 430px;
+    transition: width 2s;
+}
+.marvel img:hover{
+    width: 600px;
+}
+/* new section */
+.transform{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+} 
+.container2 {
+    text-align: center;
+    width: 200px;
+}
+.container2 p{
+    font-size: 19px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+.image-wrapper {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease;
+}
+
+/* 1. Fade-In Effect */
+.fade img {
+    opacity: 0.6;
+}
+
+.fade img:hover {
+    opacity: 1;
+}
+
+/* 2. Scale on Hover */
+.scale img:hover {
+    transform: scale(1.2);
+}
+
+/* 3. Rotate on Hover */
+.rotate img:hover {
+    transform: rotate(15deg);
+}
+
+/* 4. Flip on Hover */
+.flip img {
+    transform: perspective(600px);
+    transform-style: preserve-3d;
+}
+
+.flip img:hover {
+    transform: perspective(600px) rotateY(180deg);
+} 
+
+  /* footer */
+  .footer {
+    background-color: black; 
+    color: red;
+    text-align: center; 
+    height: 90px; 
+    margin-top: 80px;
+  }
+  .footer p{
+    font-size: 17px; 
+    padding-top: 40px;
+  }
+  /* end */
