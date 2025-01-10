@@ -110,12 +110,12 @@ input:checked + label {
 /* this section ends here */
 .marvel img{
     height: 200px;
-    width: 400px;
+    width: 450px;
     margin-left: 430px;
     transition: width 2s;
 }
 .marvel img:hover{
-    width: 600px;
+    width: 650px;
 }
 /* new section */
 .transform{
@@ -131,7 +131,7 @@ input:checked + label {
 .container2 p{
     font-size: 19px;
     font-weight: 600;
-    margin-left: 400px;
+    margin-left: 40px;
 }
 .image-wrapper {
     width: 250px;
