@@ -110,13 +110,14 @@ input:checked + label {
 /* this section ends here */
 .marvel img{
     height: 200px;
-    width: 450px;
-    margin-left: 430px;
+    width: 490px;
+    margin-left: 522px;
     transition: width 2s;
 }
 .marvel img:hover{
-    width: 650px;
+    width: 600px;
 }
+
 /* new section */
 .transform{
     margin-top: 150px;
